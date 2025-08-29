@@ -1,4 +1,4 @@
-# Bitmap Storage Manager
+# Bitmap Manager
 
 A cross-platform C# application for storing and retrieving bitmaps with metadata management.
 
@@ -12,8 +12,8 @@ A cross-platform C# application for storing and retrieving bitmaps with metadata
 
 ## Project Structure
 
-- `BitmapStorageLib/`: Core library containing bitmap storage functionality
-- `BitmapStorageWPF/`: Windows WPF application for GUI interaction
+- `BitmapManagerLib/`: Core library containing bitmap storage functionality
+- `BitmapManagerWPF/`: Windows WPF application for GUI interaction
 
 ## Requirements
 
@@ -36,15 +36,15 @@ A cross-platform C# application for storing and retrieving bitmaps with metadata
 
 3. Run the WPF application (Windows only):
    ```bash
-   cd BitmapStorageWPF
+   cd BitmapManagerWPF
    dotnet run
    ```
 
 ### Using Visual Studio
 
-1. Open `BitmapStorageManager.sln` in Visual Studio
+1. Open `BitmapManager.sln` in Visual Studio
 2. Build the solution
-3. Set `BitmapStorageWPF` as the startup project
+3. Set `BitmapManagerWPF` as the startup project
 4. Run the application
 
 ## Usage
@@ -57,8 +57,8 @@ A cross-platform C# application for storing and retrieving bitmaps with metadata
 ## Storage Location
 
 Bitmaps are stored in:
-- Windows: `%USERPROFILE%\Documents\BitmapStorage\`
-- Linux: `~/Documents/BitmapStorage/`
+- Windows: `%USERPROFILE%\Documents\BitmapManager\`
+- Linux: `~/Documents/BitmapManager/`
 
 ## API Reference
 

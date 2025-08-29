@@ -1,4 +1,4 @@
-# Bitmap Storage Manager - Project Summary
+# Bitmap Manager - Project Summary
 
 ## Overview
 A cross-platform C# application designed for storing and retrieving bitmap images with comprehensive metadata management. The system provides both a reusable library component and a Windows WPF user interface.
@@ -6,8 +6,8 @@ A cross-platform C# application designed for storing and retrieving bitmap image
 ## 🏗️ Architecture
 
 ### Core Components
-- **BitmapStorageLib**: .NET Standard 2.0 library for cross-platform bitmap operations
-- **BitmapStorageWPF**: Windows Presentation Foundation application for GUI interaction
+- **BitmapManagerLib**: .NET Standard 2.0 library for cross-platform bitmap operations
+- **BitmapManagerWPF**: Windows Presentation Foundation application for GUI interaction
 - **Solution Structure**: Organized as a Visual Studio solution with proper project references
 
 ## ✨ Key Features
@@ -40,7 +40,7 @@ A cross-platform C# application designed for storing and retrieving bitmap image
 ## 📁 Storage Structure
 
 ```
-BitmapStorage/
+BitmapManager/
 ├── metadata.json          # JSON metadata store
 ├── {guid}.png            # Individual bitmap files
 └── ...
@@ -65,8 +65,8 @@ BitmapStorage/
 
 ## 📍 Storage Location
 
-- **Windows**: `%USERPROFILE%\Documents\BitmapStorage\`
-- **Linux**: `~/Documents/BitmapStorage/`
+- **Windows**: `%USERPROFILE%\Documents\BitmapManager\`
+- **Linux**: `~/Documents/BitmapManager/`
 
 ## 🔄 API Interface
 

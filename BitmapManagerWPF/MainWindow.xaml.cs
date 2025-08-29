@@ -6,9 +6,9 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using Microsoft.Win32;
-using BitmapStorageLib;
+using BitmapManager;
 
-namespace BitmapStorageWPF
+namespace BitmapManagerWPF
 {
     public partial class MainWindow : Window
     {
@@ -20,7 +20,7 @@ namespace BitmapStorageWPF
             InitializeComponent();
 
             // Initialize storage in user's documents folder
-            string storagePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "BitmapStorage");
+            string storagePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "BitmapManager");
             _bitmapStorage = new BitmapStorage(storagePath);
 
             LoadBitmapList();

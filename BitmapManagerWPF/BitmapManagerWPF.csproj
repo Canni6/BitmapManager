@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BitmapStorageLib\BitmapStorageLib.csproj" />
+    <ProjectReference Include="..\BitmapManagerLib\BitmapManagerLib.csproj" />
   </ItemGroup>
 
 </Project>
